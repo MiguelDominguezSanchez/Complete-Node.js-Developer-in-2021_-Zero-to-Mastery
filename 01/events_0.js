@@ -4,7 +4,7 @@ const celebrity = new EventEmitter()
 // Subscribe to celebrity for Observer 1
 celebrity.on('race', (result) => {
 	if (result === 'win') {
-		console.log('Congratulations! You are the best!')
+		console.log('Congratulations! You are he best!')
 	}
 })
 
